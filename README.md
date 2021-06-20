@@ -28,7 +28,7 @@
  - all large pods: http://localhost:3001/api/pods?type=COFFEE_POD_LARGE
  - all espresso vanilla pods:http://localhost:3001/api/pods?flavor=COFFEE_FLAVOR_VANILLA
  - all espresso machines:http://localhost:3001/api/machines?type=ESPRESSO_MACHINE  
- - all pods sold in 7 dozen packs: http://localhost:3001/api/pods?flavor=COFFEE_FLAVOR_VANILLA
+ - all pods sold in 7 dozen packs: http://localhost:3001/api/pods?size=84
 
 
 
