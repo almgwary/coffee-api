@@ -1,0 +1,41 @@
+{
+    "machine":[
+        {"sku": "CM001", "model": "base", "type": "COFFEE_MACHINE_SMALL", "waterCompatible": false},
+        {"sku": "CM002", "model": "premium", "type": "COFFEE_MACHINE_SMALL", "waterCompatible": false},
+        {"sku": "CM003", "model": "deluxe", "type": "COFFEE_MACHINE_SMALL", "waterCompatible": true},
+        {"sku": "CM101", "model": "base", "type": "COFFEE_MACHINE_LARGE", "waterCompatible": false},
+        {"sku": "CM102", "model": "premium", "type": "COFFEE_MACHINE_LARGE", "waterCompatible": false},
+        {"sku": "CM103", "model": "deluxe", "type": "COFFEE_MACHINE_LARGE", "waterCompatible": true},
+        {"sku": "EM001", "model": "base", "type": "ESPRESSO_MACHINE", "waterCompatible": false},
+        {"sku": "EM002", "model": "premium", "type": "ESPRESSO_MACHINE", "waterCompatible": false},
+        {"sku": "EM003", "model": "deluxe", "type": "ESPRESSO_MACHINE", "waterCompatible": true}
+    ],
+    "pod":[
+        {"sku": "CP001", "flavor": "COFFEE_FLAVOR_VANILLA", "size": 12, "type": "COFFEE_POD_SMALL"},
+        {"sku": "CP003", "flavor": "COFFEE_FLAVOR_VANILLA", "size": 36, "type": "COFFEE_POD_SMALL"},
+        {"sku": "CP011", "flavor": "COFFEE_FLAVOR_CARAMEL", "size": 12, "type": "COFFEE_POD_SMALL"},
+        {"sku": "CP013", "flavor": "COFFEE_FLAVOR_CARAMEL", "size": 36, "type": "COFFEE_POD_SMALL"},
+        {"sku": "CP021", "flavor": "COFFEE_FLAVOR_PSL", "size": 12, "type": "COFFEE_POD_SMALL"},
+        {"sku": "CP023", "flavor": "COFFEE_FLAVOR_PSL", "size": 36, "type": "COFFEE_POD_SMALL"},
+        {"sku": "CP031", "flavor": "COFFEE_FLAVOR_MOCHA", "size": 12, "type": "COFFEE_POD_SMALL"},
+        {"sku": "CP033", "flavor": "COFFEE_FLAVOR_MOCHA", "size": 36, "type": "COFFEE_POD_SMALL"},
+        {"sku": "CP041", "flavor": "COFFEE_FLAVOR_HAZELNUT", "size": 12, "type": "COFFEE_POD_SMALL"},
+        {"sku": "CP043", "flavor": "COFFEE_FLAVOR_HAZELNUT", "size": 36, "type": "COFFEE_POD_SMALL"},
+        {"sku": "CP101", "flavor": "COFFEE_FLAVOR_VANILLA", "size": 12, "type": "COFFEE_POD_LARGE"},
+        {"sku": "CP103", "flavor": "COFFEE_FLAVOR_VANILLA", "size": 36, "type": "COFFEE_POD_LARGE"},
+        {"sku": "CP111", "flavor": "COFFEE_FLAVOR_CARAMEL", "size": 12, "type": "COFFEE_POD_LARGE"},
+        {"sku": "CP113", "flavor": "COFFEE_FLAVOR_CARAMEL", "size": 36, "type": "COFFEE_POD_LARGE"},
+        {"sku": "CP121", "flavor": "COFFEE_FLAVOR_PSL", "size": 12, "type": "COFFEE_POD_LARGE"},
+        {"sku": "CP123", "flavor": "COFFEE_FLAVOR_PSL", "size": 36, "type": "COFFEE_POD_LARGE"},
+        {"sku": "CP131", "flavor": "COFFEE_FLAVOR_MOCHA", "size": 12, "type": "COFFEE_POD_LARGE"},
+        {"sku": "CP133", "flavor": "COFFEE_FLAVOR_MOCHA", "size": 36, "type": "COFFEE_POD_LARGE"},
+        {"sku": "CP141", "flavor": "COFFEE_FLAVOR_HAZELNUT", "size": 12, "type": "COFFEE_POD_LARGE"},
+        {"sku": "CP143", "flavor": "COFFEE_FLAVOR_HAZELNUT", "size": 36, "type": "COFFEE_POD_LARGE"},
+        {"sku": "EP003", "flavor": "COFFEE_FLAVOR_VANILLA", "size": 36, "type": "ESPRESSO_POD"},
+        {"sku": "EP005", "flavor": "COFFEE_FLAVOR_VANILLA", "size": 60, "type": "ESPRESSO_POD"},
+        {"sku": "EP007", "flavor": "COFFEE_FLAVOR_VANILLA", "size": 84, "type": "ESPRESSO_POD"},
+        {"sku": "EP013", "flavor": "COFFEE_FLAVOR_CARAMEL", "size": 36, "type": "ESPRESSO_POD"},
+        {"sku": "EP015", "flavor": "COFFEE_FLAVOR_CARAMEL", "size": 60, "type": "ESPRESSO_POD"},
+        {"sku": "EP017", "flavor": "COFFEE_FLAVOR_CARAMEL", "size": 84, "type": "ESPRESSO_POD"}
+    ]
+}

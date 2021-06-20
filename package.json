@@ -1,0 +1,32 @@
+{
+  "name": "coffee-api",
+  "version": "1.0.0",
+  "description": "application for line of coffee machines and custom coffee pods",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js", 
+    "docker-compose:dev":"docker-compose up --force-recreate --build",
+    "docker-compose:production":"docker-compose up -d",
+    "start_watch": "nodemon index.js",
+    "start_watch_inspect": "nodemon --inspect index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "pg": "^7.12.1",
+    "pg-hstore": "^2.3.3",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "sequelize": "^5.19.2",
+    "sequelize-cli": "^5.5.1"
+  },
+  "contributors": [
+    "almgwary <almgwaryfci@gmail.com>"
+  ],
+  "devDependencies": {
+    "eslint": "^7.6.0"
+  },
+  "author": "almgwaryfci@gmail.com",
+  "license": "ISC"
+}

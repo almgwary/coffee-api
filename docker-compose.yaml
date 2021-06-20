@@ -1,0 +1,23 @@
+version: '3'
+services:
+  node:
+    restart: always
+    build: .
+    depends_on:
+      - postgres
+    environment:
+      POSTGRES_HOST: postgresql://api:mysecretpassword@postgres:5432/heroes 
+    links:
+      - postgres
+    ports:
+      - 3001:3001
+    volumes:
+      - ./:/code
+  postgres:
+    image: postgres:11.2-alpine
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: api
+      POSTGRES_PASSWORD: mysecretpassword
+      POSTGRES_DB: heroes
